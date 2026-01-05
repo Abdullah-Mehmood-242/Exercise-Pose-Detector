@@ -56,6 +56,26 @@
 </tr>
 </table>
 
+### 🧠 ML Features (NEW!)
+
+- ✅ **Auto Exercise Detection** - ML classifier automatically recognizes which exercise you're performing
+- ✅ **Form Quality Scoring** - Get a 0-100 score with letter grade (A-F) for your form
+- ✅ **Confidence Display** - See how confident the ML model is in its predictions
+
+### 🔬 CV Analysis Features (NEW!)
+
+- ✅ **Optical Flow** - Visualize motion vectors showing movement direction and speed
+- ✅ **Background Subtraction** - Motion detection with foreground highlighting
+- ✅ **Motion Energy Image** - Heatmap showing accumulated motion patterns
+- ✅ **Edge Detection** - Enhanced body contour visualization
+
+### 🎬 Demo & Presentation Tools (NEW!)
+
+- ✅ **Instant Screenshots** - Capture key moments with a single keystroke (S)
+- ✅ **Video Recording** - Record entire exercise sessions for analysis or demo (O)
+- ✅ **Performance Stats** - Monitor real-time FPS and processing latency (P)
+- ✅ **Training Mode** - Collect labeled data to train your own ML models (T)
+
 ### 🎨 Visual Features
 
 - ✅ **Professional UI Overlay** - Clean, modern interface with stats panels
@@ -141,6 +161,8 @@ python main.py
 | `opencv-python` | >= 4.8.0 | Video capture & display |
 | `mediapipe` | >= 0.10.0 | AI pose detection |
 | `numpy` | >= 1.24.0 | Mathematical operations |
+| `scikit-learn` | >= 1.3.0 | ML classification |
+| `joblib` | >= 1.3.0 | Model persistence |
 
 ---
 
@@ -154,6 +176,13 @@ python main.py
 | `2` | Squat | Switch to squat exercise |
 | `3` | Push-up | Switch to push-up exercise |
 | `4` | Shoulder Press | Switch to shoulder press exercise |
+| `A` | Auto-Detect | Toggle ML auto-detection mode |
+| `V` | CV Mode | Cycle through CV visualization modes |
+| `S` | Screenshot | Save a screenshot |
+| `O` | Record | Start/Stop video recording |
+| `P` | Performance | Toggle performance stats display |
+| `T` | Training | Toggle training data collection mode |
+| `H` | Help | Show/hide keyboard shortcuts overlay |
 | `R` | Reset | Reset the current rep count |
 | `Q` | Quit | Exit the application |
 
@@ -233,6 +262,24 @@ AI-Fitness-Trainer/
 │   ├── FormFeedback         # Feedback data class
 │   └── FormAnalyzer         # Form analysis logic
 │
+├── 📄 ml_classifier.py      # ML classification module (NEW)
+│   ├── FeatureExtractor     # Pose feature extraction
+│   ├── ExerciseClassifier   # Random Forest classifier
+│   └── FormQualityScorer    # ML-based form scoring
+│
+├── 📄 cv_analyzer.py        # CV analysis module (NEW)
+│   ├── OpticalFlowAnalyzer  # Lucas-Kanade optical flow
+│   ├── BackgroundSubtractor # MOG2 background subtraction
+│   ├── MotionEnergyImage    # Motion accumulation
+│   └── CVAnalyzer           # Unified CV interface
+│
+├── 📄 demo_utils.py         # Demo & presentation utilities (NEW)
+│   ├── ScreenshotCapture    # Screenshot saving
+│   ├── VideoRecorder        # MP4 recording
+│   ├── PerformanceBenchmark # FPS & timing stats
+│   └── TrainingModeUI       # Training data collection
+│
+├── 📄 RESEARCH_REPORT.md    # Academic research report
 ├── 📄 requirements.txt      # Project dependencies
 ├── 📄 .gitignore           # Git ignore rules
 └── 📄 README.md            # This file
