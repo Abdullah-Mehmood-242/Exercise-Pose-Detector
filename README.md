@@ -420,7 +420,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 <tr>
 <td align="center">
 <strong>Computer Vision Semester Project</strong><br>
-<sub>Built with ❤️ using Python, OpenCV & MediaPipe</sub>
+<sub>Built with ❤️ by:
+  *Name:* Talha Mehmood, *SAP ID:* 70158056
+  *Name:* Syed Umer Shehzad, *SAP ID:* 70159454
+  *Name:* Muhammad Bilal Abid, *SAP ID:* 70158113
+  using Python, OpenCV & MediaPipe</sub>
 </td>
 </tr>
 </table>
