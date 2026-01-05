@@ -417,7 +417,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👨‍💻 Author
 
 <div align="center">
-  <table width="100%">
+  <table style="width: 100%">
     <tr>
       <td align="center">
         <strong>Computer Vision Semester Project</strong><br>
