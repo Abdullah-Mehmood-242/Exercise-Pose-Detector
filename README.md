@@ -416,20 +416,22 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Author
 
-<table width="100%">
-  <tr>
-    <td align="center">
-      <strong>Computer Vision Semester Project</strong><br>
-      <sub>
-        Built with ❤️ by:
-        <br><b>Name:</b> Talha Mehmood, <b>SAP ID:</b> 70158056
-        <br><b>Name:</b> Syed Umer Shehzad, <b>SAP ID:</b> 70159454
-        <br><b>Name:</b> Muhammad Bilal Abid, <b>SAP ID:</b> 70158113
-        <br>using Python, OpenCV & MediaPipe
-      </sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td align="center">
+        <strong>Computer Vision Semester Project</strong><br>
+        <sub>
+          Built with ❤️ by:
+          <br><b>Name:</b> Talha Mehmood, <b>SAP ID:</b> 70158056
+          <br><b>Name:</b> Syed Umer Shehzad, <b>SAP ID:</b> 70159454
+          <br><b>Name:</b> Muhammad Bilal Abid, <b>SAP ID:</b> 70158113
+          <br>using Python, OpenCV & MediaPipe
+        </sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
